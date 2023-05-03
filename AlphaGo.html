@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Inteligenta Artificiala
+        </title>
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/body.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/content.css">
+        <script src="script/darkmode.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">    
+    </head>
+    <body id="body" style="background-color: #ddb881;">
+
+<!--header-->
+<div class="header" id="header">
+    <div class="left-section">
+        <div class="header-lightmode">
+                <button class="lightmode-button" onclick="dark()">
+                    <img src="imagini/dark_mode_half_moon_icon_176153.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                    <div class="tooltip2">
+                        Tema
+                    </div>
+                </button>
+                <a href="Atestat.html">
+                <button class="lightmode-button">
+                    <img src="imagini/home-img.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                    <div class="tooltip2">
+                        Home
+                    </div>
+                </button>
+                </a>
+        </div>
+    </div>
+    <div class="middle-section">
+        <a href="Atestat.html">
+                <img src="imagini/site-logo.png" class="site-logo" id="site-logo">
+        </a>
+    </div>
+    <div class="right-section">
+        <div class="categorii-box">
+
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                    Informatii generale
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Meniu Dropdown-->
+<div id="myDropdown" class="dropdown-content">
+    <div style="display: flex; justify-content: space-between;">
+        <a href="DespreAI.html" class="Dropdown-text"><div >Despre IA</div></a>
+        <a href="Intrebari.html"class="Dropdown-text"><div>Intrebari comune</div></a>
+        <a href="Curiozitati.html"class="Dropdown-text"><div>Curiozitati</div></a>
+        <a href="Surse.html"class="Dropdown-text"><div>Surse</div></a>
+    </div>
+</div>
+<!--imagine spate-->
+        <div class="img-bg-box">
+            <img src="imagini/alphago-bg.png" class="img-bg">
+        </div>
+<!--continut-->
+        <div class="content-ai-1" id="content" style="background-color:#ddb881; margin-top: 890px;">
+            <div class="textBox-ai" style="font-size: 31px;">
+                <p style="font-weight: bold; font-size: 45px; color:#da8300">
+                   GENERAL 
+                </p>
+                <p>
+                    AlphaGo este un sistem de inteligență artificială dezvoltat de compania Google DeepMind, 
+                    care a devenit celebru pentru capacitatea sa de a învinge campionii de Go. În acest eseu, 
+                    vom explora dezvoltarea, funcționarea și impactul AlphaGo asupra lumii jocurilor de societate 
+                    și a dezvoltării inteligenței artificiale.
+                </p>
+                <p>
+                    Dezvoltarea AlphaGo a început în anul 2014, când Google a achiziționat compania britanică DeepMind, 
+                    care era deja cunoscută pentru cercetarea în domeniul inteligenței artificiale. Obiectivul dezvoltatorilor 
+                    AlphaGo era de a crea un sistem de inteligență artificială care să poată învăța să joace Go, un joc de 
+                    societate chinezesc extrem de complex, cu o varietate mare de mișcări posibile. În ianuarie 2016, AlphaGo 
+                    a reușit să învingă pe unul dintre cei mai buni jucători de Go din lume, Lee Sedol, într-un meci de 5 partide.
+                </p>
+            </div>
+            <a href="https://www.deepmind.com/research/highlighted-research/alphago" target="_blank">
+                <div class="container-img-ai">
+                    <img src="imagini/alphago-2-img.png" class="image-img-ai">
+                    <div class="overlay-img-ai" style="background-color: #ddb881">
+                        <div class="text-img-ai">Pagina AlphaGo</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+            <div class="content-ai-2" id="content" style="background-color:#ddb881">
+
+                <a href="https://www.deepmind.com/" target="_blank">
+                    <div class="container-img-ai">
+                        <img src="imagini/alphago-4-img.png" class="image-img-ai">
+                        <div class="overlay-img-ai" style="background-color: #ddb881">
+                            <div class="text-img-ai">Pagina Dezvoltatori</div>
+                        </div>
+                    </div>
+                </a>
+
+                <div class="textBox-ai" style="font-size: 41px;">
+                    <p style="font-weight: bold; font-size: 45px; color:#da8300">
+                        MOD DE FUNCTIONARE / UTILIZARE
+                    </p>
+                    <p>
+                        Funcționarea AlphaGo este bazată pe învățarea automată, rețelele neuronale 
+                        și algoritmi de căutare. Înainte de a învăța să joace Go, AlphaGo a fost instruit 
+                        să recunoască modele și să identifice care sunt cele mai bune mișcări în diferite situații.
+                    </p>
+                    <p>
+                        Acest proces a fost realizat cu ajutorul a două rețele neuronale: o rețea de convoluție, 
+                        care a fost instruită să identifice modelele în jocul de Go, și o rețea de politici, care 
+                        a fost instruită să identifice cele mai bune mișcări.
+                    </p>
+                    <p>
+                        Ulterior, AlphaGo a fost instruit să joace împotriva altor sisteme de inteligență artificială, 
+                        precum și împotriva unor jucători umani, pentru a-și perfecționa abilitățile.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="content-ai-1" id="content" style="background-color:#ddb881; margin-top: 465px;">
+
+                <div class="textBox-ai">
+                    <p style="font-weight: bold; font-size: 45px; color:#da8300">
+                        IMPACT
+                    </p>
+                    <p>
+                        Impactul AlphaGo asupra lumii jocurilor de societate și a dezvoltării inteligenței 
+                        artificiale a fost imens. După victoria istorică împotriva lui Lee Sedol, AlphaGo a 
+                        devenit un subiect de discuție global. 
+                    </p>
+                    <p>
+                        Acest eveniment a atras atenția asupra capacităților avansate ale modelelor de învățare profundă 
+                        și a făcut ca multe companii și organizații să investească mai mult în cercetarea inteligenței artificiale.
+                    </p>
+                    <p>
+                        În plus, AlphaGo a fost utilizat și în alte domenii, precum medicina, pentru a ajuta la identificarea 
+                        celulelor canceroase în imagini medicale.
+                    </p>
+                </div>
+
+                    <div class="container-img-ai">
+                        <img src="imagini/alphago-3-img.png" class="image-img-ai">
+                    </div>
+            </div>
+    </body>
+</html>

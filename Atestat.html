@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Inteligenta Artificiala
+        </title>
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/body.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/content.css">
+        <script src="script/darkmode.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">    
+    </head>
+    <body id="body">
+<!--header-->
+    <div class="header" id="header">
+        <div class="left-section">
+            <div class="header-lightmode">
+                    <button class="lightmode-button" onclick="dark()">
+                        <img src="imagini/dark_mode_half_moon_icon_176153.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                        <div class="tooltip2">
+                            Tema
+                        </div>
+                    </button>
+                    <a href="Atestat.html">
+                    <button class="lightmode-button">
+                        <img src="imagini/home-img.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                        <div class="tooltip2">
+                            Home
+                        </div>
+                    </button>
+                    </a>
+            </div>
+        </div>
+        <div class="middle-section">
+            <a href="Atestat.html">
+                    <img src="imagini/site-logo.png" class="site-logo" id="site-logo">
+            </a>
+        </div>
+        <div class="right-section">
+            <div class="categorii-box">
+
+
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">
+                        Informatii generale
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Meniu Dropdown-->
+    <div id="myDropdown" class="dropdown-content">
+        <div style="display: flex; justify-content: space-between;">
+            <a href="DespreAI.html" class="Dropdown-text"><div >Despre IA</div></a>
+            <a href="Intrebari.html"class="Dropdown-text"><div>Intrebari comune</div></a>
+            <a href="Curiozitati.html"class="Dropdown-text"><div>Curiozitati</div></a>
+            <a href="Surse.html"class="Dropdown-text"><div>Surse</div></a>
+        </div>
+    </div>
+
+<!--imagine spate-->
+        <div class="img-bg-box">
+            <img src="imagini/bg-ai.webp" class="img-bg">
+        </div>
+<!--continut-->
+        <div class="content" id="content">
+
+            <a href="ChatGPT.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/chatgpt-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            ChatGPT
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: Chatbot
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: Open AI
+                        </p>
+                        <p>
+                            &#x2022;  Data Lansare:  11/2022
+                        </p>
+                        <p>
+                            &#x2022;  Pret utilizare: gratis
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            
+            <a href="DALL-E.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/dall-e.jpg" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            DALL-E
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: Generator de imagini
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: Open AI
+                        </p>
+                        <p>
+                            &#x2022;  Data Lansare:  01/2021
+                        </p>
+                        <p>
+                            &#x2022;  Pret utilizare: Cumparare credite
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="ElevenLabs.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/ElevenLabs-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            Eleven Labs AI
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: Generare de voci
+                        </p>
+                        <p>
+                            &#x2022; Dezvoltator: Eleven Labs
+                        </p>
+                        <p>
+                            &#x2022;  Data Lansare:  2018
+                        </p>
+                        <p>
+                            &#x2022;  Pret utilizare: gratis/ abonament
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="AlphaGo.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/alphago-1-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            AlphaGo
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: Jucator
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: Google DeepMind
+                        </p>
+                        <p>
+                            &#x2022;  Inceputul dezvoltarii:  2014
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="Watson.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/watson-3-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            IBM Watson
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: platformă de IA
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: IBM
+                        </p>
+                        <p>
+                            &#x2022;  Inceputul dezvoltarii:  2005
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="BlueRiverTehnology.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/blueriver-1-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            Blue River Technology AI
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: viziune artificială și robotică
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: Blue River Technology
+                        </p>
+                        <p>
+                            &#x2022;  Inceputul dezvoltarii:  2011
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a href="TeslaAutopilot.html" class="preview-ai-link">
+                <div class="preview-ai">
+                    <div class="poza-ai-box">
+                            <img src="imagini/tesla-1-img.png" class="poza-ai">
+                    </div>
+                    <div class="nume-ai">
+                        <p>
+                            Tesla Autopilot
+                        </p>
+                    </div>
+                    <div class="date-ai">
+                        <p>
+                            &#x2022;  Clasa: platformă de asistență a șoferului
+                        </p>
+                        <p>
+                            &#x2022;  Dezvoltator: Tesla
+                        </p>
+                        <p>
+                            &#x2022;  Inceputul dezvoltarii:  2014
+                        </p>
+                    </div>
+                </div>
+            </a>
+    </body>
+</html>

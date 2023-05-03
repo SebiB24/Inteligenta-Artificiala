@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Inteligenta Artificiala
+        </title>
+
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/body.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/content.css">
+        <script src="script/darkmode.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">    
+    </head>
+    <body id="body" style="background-color: #7151a5;">
+
+<!--header-->
+<div class="header" id="header">
+    <div class="left-section">
+        <div class="header-lightmode">
+                <button class="lightmode-button" onclick="dark()">
+                    <img src="imagini/dark_mode_half_moon_icon_176153.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                    <div class="tooltip2">
+                        Tema
+                    </div>
+                </button>
+                <a href="Atestat.html">
+                <button class="lightmode-button">
+                    <img src="imagini/home-img.png" style="margin: 5px; height: 20px" id="lightmodePicture">
+                    <div class="tooltip2">
+                        Home
+                    </div>
+                </button>
+                </a>
+        </div>
+    </div>
+    <div class="middle-section">
+        <a href="Atestat.html">
+                <img src="imagini/site-logo.png" class="site-logo" id="site-logo">
+        </a>
+    </div>
+    <div class="right-section">
+        <div class="categorii-box">
+
+
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                    Informatii generale
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Meniu Dropdown-->
+<div id="myDropdown" class="dropdown-content">
+    <div style="display: flex; justify-content: space-between;">
+        <a href="DespreAI.html" class="Dropdown-text"><div >Despre IA</div></a>
+        <a href="Intrebari.html"class="Dropdown-text"><div>Intrebari comune</div></a>
+        <a href="Curiozitati.html"class="Dropdown-text"><div>Curiozitati</div></a>
+        <a href="Surse.html"class="Dropdown-text"><div>Surse</div></a>
+    </div>
+</div>
+<!--imagine spate-->
+        <div class="img-bg-box">
+            <img src="imagini/chat-gpt-bg.jpg" class="img-bg">
+        </div>
+<!--continut-->
+        <div class="content-ai-1" id="content" style="background-color:#7151a5; margin-top: 910px;">
+            <div class="textBox-ai">
+                <p style="font-weight: bold; font-size: 45px; color:#977fbe">
+                   GENERAL 
+                </p>
+                <p>
+                    ChatGPT (Chat Generative Pre-trained Transformer) este un chatbot lansat de OpenAI în noiembrie 2022.
+                </p>
+                <p>
+                    A fost lansat ca prototip la 30 noiembrie 2022 și a atras rapid atenția pentru răspunsurile sale detaliate 
+                    și răspunsurile articulate în multe domenii de cunoaștere. După lansarea ChatGPT, OpenAI a fost evaluat la 29 de miliarde de dolari americani.
+                </p>
+                <p>
+                    De la lansare, GPT-3 a fost folosit pentru a genera text pentru chatbot, pentru a rezuma date, pentru a crea articole 
+                    și povești, pentru a construi sisteme de asistență pentru clienți, pentru a ajuta la sarcini de răspuns la întrebări 
+                    și multe altele.
+                </p>
+                <p>
+                    Lansarea inițială a ChatGPT a fost bazată pe GPT-3.5 . O versiune bazată pe GPT-4, cel mai nou model OpenAI, a fost 
+                    lansată pe 14 martie 2023 și este disponibilă doar pentru abonații plătitori.
+                </p>
+            </div>
+            <a href="https://openai.com/blog/chatgpt" target="_blank">
+                <div class="container-img-ai">
+                    <img src="imagini/chat-GPT-1.jpg" class="image-img-ai">
+                    <div class="overlay-img-ai" style="background-color: #7151a5;">
+                        <div class="text-img-ai">Pagina ChatGPT</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="content-ai-2" id="content" style="background-color:#7151a5"> 
+            <a href="https://openai.com/" target="_blank">
+                <div class="container-img-ai">
+                    <img src="imagini/OpenAI-image.png" class="image-img-ai">
+                    <div class="overlay-img-ai" style="background-color: #7151a5;">
+                        <div class="text-img-ai">Pagina dezvoltatori</div>
+                    </div>
+                </div>
+            </a>
+
+            <div class="textBox-ai">
+                <p style="font-weight: bold; font-size: 45px; color:#977fbe">
+                    CARACTERISTICI
+                </p>
+                <p>
+                    Deși funcția de bază a unui chatbot este de a imita un interlocutor uman, ChatGPT este versatil.
+                    De exemplu, poate scrie și depana programe de calculator; compune muzică, scenarii de televiziune, 
+                    basme, eseuri pentru studenți; să răspundă la întrebările de examen (uneori, în funcție de test, 
+                    la un nivel peste media unui om); scrie poezie și versuri de cântece; emula un sistem Linux ; 
+                    simula o întreagă cameră de chat; juca jocuri precum x și 0; simula un bancomat .
+                </p>
+                <p>
+                    Spre deosebire de majoritatea chatbot-urilor, ChatGPT își amintește solicitările anterioare primite în 
+                    cadrul aceleiași conversații. Jurnaliștii au speculat că acest lucru va permite ca ChatGPT să fie folosit 
+                    ca terapeut personalizat. Pentru a preveni prezentarea către și producerea rezultatelor ofensatoare de 
+                    către ChatGPT, interogările sunt filtrate prin API-ul OpenAI „Moderation endpoint” (un AI separat bazat pe GPT), 
+                    și solicitările potențial rasiste sau sexiste sunt respinse.
+                </p>
+                <p>
+                    În martie 2023, OpenAI a anunțat că va adăuga suport pentru pluginuri pentru ChatGPT. Aceasta include atât 
+                    pluginuri create de OpenAI, cum ar fi navigarea pe web și interpretarea codului, cât și pluginuri externe de la 
+                    dezvoltatori precum Expedia, OpenTable, Zapier, Shopify, Slack și Wolfram.
+                </p>
+            </div>
+        </div>
+
+            <div class="content-ai-3" id="content" style="background-color:#7151a5">
+
+                <div class="textBox-ai">
+                    <p style="font-weight: bold; font-size: 45px; color:#977fbe">
+                        MOD DE FUNCTIONARE
+                    </p>
+                    <p>
+                        ChatGPT este un membru al familiei de modele de limbaj generative pre-antrenate (GPT). 
+                        A fost reglat fin (o abordare a transferului de învățare) peste o versiune îmbunătățită a 
+                        GPT-3 a OpenAI cunoscută sub numele de „ GPT-3.5 ”.
+                    </p>
+                    <p>
+                        Procesul de reglare fină a folosit atât învățarea supravegheată, cât și învățarea prin consolidare 
+                        într-un proces numit învățare prin consolidare din feedback uman (RLHF).Ambele abordări 
+                        folosesc antrenori umani pentru a îmbunătăți performanța modelului. În pasul de învățare prin consolidare, 
+                        formatorii umani au clasificat mai întâi răspunsurile pe care modelul le-a creat într-o conversație anterioară.
+                        Aceste clasamente au fost folosite pentru a crea 
+                        „modele de recompensă” pe care modelul a fost ajustat în continuare folosind mai multe iterații ale Proximal 
+                        Policy Optimization (PPO).Algoritmii Proximal Policy Optimization sunt o alternativă rentabilă la 
+                        algoritmii de învățare prin consolidare fără model.
+                    </p>
+                    <p>
+                        ChatGPT a folosit inițial o infrastructură de supercomputere Microsoft Azure, alimentată de GPU-uri Nvidia, 
+                        pe care Microsoft a construit-o special pentru OpenAI și care, conform informațiilor, a costat „sute de milioane 
+                        de dolari”. După succesul ChatGPT, Microsoft a modernizat dramatic infrastructura OpenAI în 2023.
+                    </p>
+                    <p>
+                        OpenAI colectează date de la utilizatorii ChatGPT pentru a instrui în continuare și a perfecționa serviciul. 
+                        Utilizatorii pot vota favorabil sau defavorabil răspunsurile pe care le primesc de la ChatGPT și pot completa 
+                        un câmp de text cu feedback suplimentar.
+                    </p>
+                </div>
+
+                <a href="https://openai.com/product/gpt-4" target="_blank">
+                    <div class="container-img-ai">
+                        <img src="imagini/GPT-4-img.jpg" class="image-img-ai">
+                        <div class="overlay-img-ai" style="background-color: #7151a5;">
+                            <div class="text-img-ai">Pagina GPT-4</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="content-ai-4" id="content" style="background-color:#7151a5">
+                <div class="textBox-ai">
+                    <p style="font-weight: bold; font-size: 45px; color:#977fbe; text-align:center;">
+                        REZULTATE
+                    </p>
+                </div>
+                <div class="content-ai-4-1" id="content" style="margin-top: 0px;">
+                    <div class="container-img-ai">
+                        <img src="imagini/Screenshot-GPT-1.png" class="image-img-ai">
+                    </div>
+
+                    <div class="container-img-ai">
+                        <img src="imagini/Screenshot-GPT-2.png" class="image-img-ai">
+                    </div>
+
+                    <div class="container-img-ai">
+                        <img src="imagini/Screenshot-GPT-3.png" class="image-img-ai">
+                    </div>
+
+                    <div class="container-img-ai">
+                        <img src="imagini/Screenshot-GPT-4.png" class="image-img-ai">
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
