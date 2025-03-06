@@ -1,1 +1,1 @@
-Website aboaut AI using HTML, CSS and JS
+Website aboaut AI made with HTML, CSS and JS
