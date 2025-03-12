@@ -27,6 +27,9 @@
 }
 .lightmode-button
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-style: solid;
     border-radius: 40px;
     border-width: 2px;
