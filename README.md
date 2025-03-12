@@ -26,6 +26,9 @@ Acest site oferă informații despre diverse tehnologii și aplicații ale intel
 2. **Temă**: Puteți schimba tema site-ului între modul deschis și întunecat folosind butonul din antet.
 3. **Informații**: Fiecare tehnologie are o pagină dedicată cu detalii despre clasă, dezvoltator, data lansării și prețul de utilizare.
 
+## Link
+[inteligenta_Artificiala](https://sebib24.github.io/Inteligenta-Artificiala/Curiozitati.html)
+
 ## Capturi de ecran
 
 ![image](https://github.com/user-attachments/assets/ff758ada-b4ab-4e9a-a2c7-4e58c6b8da0f)
@@ -36,8 +39,5 @@ Acest site oferă informații despre diverse tehnologii și aplicații ale intel
 
 ![image](https://github.com/user-attachments/assets/5c4cb95e-af90-419b-a66c-9311d0872cfd)
 
-
-## Link
-[Page](https://sebib24.github.io/Inteligenta-Artificiala/Curiozitati.html)
 
 
