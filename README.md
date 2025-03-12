@@ -1,48 +1,29 @@
-# Site despre Inteligența Artificială
+# Site despre Inteligență Artificială
 
-Acest site oferă informații despre diverse tehnologii și platforme de inteligență artificială, cum ar fi ChatGPT, DALL-E, Eleven Labs AI, AlphaGo, IBM Watson, Blue River Technology AI și Tesla Autopilot.
+Acest site oferă informații despre diverse tehnologii și aplicații ale inteligenței artificiale (IA). Site-ul este structurat pentru a oferi o prezentare generală a diferitelor sisteme de IA, inclusiv detalii despre dezvoltatori, date de lansare și utilizări.
 
-## Pagini Disponibile
+## Pagini principale
 
-- **Acasă**: Pagina principală care prezintă o listă de tehnologii AI.
+- **Acasă**: Pagina principală care oferă o prezentare generală a site-ului și link-uri către alte pagini.
 - **Despre IA**: Informații generale despre inteligența artificială.
-- **Întrebări Comune**: Răspunsuri la întrebări frecvente despre IA.
-- **Curiozități**: Fapte interesante despre IA.
-- **Surse**: Resurse și referințe pentru informații suplimentare.
+- **Întrebări comune**: Răspunsuri la întrebări frecvente despre IA.
+- **Curiozități**: Informații interesante și puțin cunoscute despre IA.
+- **Surse**: Resurse și referințe pentru informații suplimentare despre IA.
 
-## Tehnologii Prezentate
+## Tehnologii prezentate
 
-- **ChatGPT**: Un chatbot dezvoltat de OpenAI.
-- **DALL-E**: Un generator de imagini bazat pe IA.
-- **Eleven Labs AI**: O platformă pentru generarea de voci.
-- **AlphaGo**: Un sistem AI care joacă Go.
+- **ChatGPT**: Un chatbot dezvoltat de OpenAI, lansat în noiembrie 2022.
+- **DALL-E**: Un generator de imagini bazat pe IA, dezvoltat de OpenAI.
+- **Eleven Labs AI**: Un sistem de generare de voci artificiale.
+- **AlphaGo**: Un sistem de IA dezvoltat de Google DeepMind pentru a juca jocul Go.
 - **IBM Watson**: O platformă de IA dezvoltată de IBM.
-- **Blue River Technology AI**: Tehnologii de viziune artificială și robotică.
-- **Tesla Autopilot**: Un sistem de asistență pentru șoferi.
+- **Blue River Technology AI**: Un sistem de viziune artificială și robotică.
+- **Tesla Autopilot**: Un sistem de asistență pentru șoferi dezvoltat de Tesla.
 
-## Cum să Rulezi Proiectul
+## Cum să folosești site-ul
 
-1. Asigură-te că ai instalat Java Development Kit (JDK) și un mediu de dezvoltare Java (cum ar fi IntelliJ IDEA sau Eclipse).
-2. Clonează acest repository pe calculatorul tău.
-3. Deschide proiectul în mediul tău de dezvoltare.
-4. Rulează clasa `RadioApplication` pentru a porni aplicația.
+1. **Navigare**: Utilizați meniul de navigare din antet pentru a accesa diferitele pagini ale site-ului.
+2. **Temă**: Puteți schimba tema site-ului între modul deschis și întunecat folosind butonul din antet.
+3. **Informații**: Fiecare tehnologie are o pagină dedicată cu detalii despre clasă, dezvoltator, data lansării și prețul de utilizare.
 
-## Structura Proiectului
-
-- **Domain**: Conține clasele de model, cum ar fi `Piesa`.
-- **Repo**: Conține clasele de repository pentru gestionarea datelor.
-- **Service**: Conține clasele de service pentru logica de afaceri.
-- **Resources**: Conține fișierele CSS, JavaScript și imaginile pentru interfața grafică.
-
-## Dependințe
-
-- JavaFX pentru interfața grafică.
-- Baza de date SQL pentru stocarea datelor.
-
-## Contribuții
-
-Contribuțiile sunt binevenite! Te rugăm să deschizi un issue sau un pull request pentru orice sugestii sau îmbunătățiri.
-
-## Licență
-
-Acest proiect este licențiat sub licența MIT - vezi fișierul [LICENSE](LICENSE) pentru detalii.
+## Capturi de ecran
