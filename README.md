@@ -27,3 +27,17 @@ Acest site oferă informații despre diverse tehnologii și aplicații ale intel
 3. **Informații**: Fiecare tehnologie are o pagină dedicată cu detalii despre clasă, dezvoltator, data lansării și prețul de utilizare.
 
 ## Capturi de ecran
+
+![image](https://github.com/user-attachments/assets/ff758ada-b4ab-4e9a-a2c7-4e58c6b8da0f)
+
+
+![image](https://github.com/user-attachments/assets/803a4022-b364-430a-bf1d-68ce4aa08365)
+
+
+![image](https://github.com/user-attachments/assets/5c4cb95e-af90-419b-a66c-9311d0872cfd)
+
+
+## Link
+[Page](https://sebib24.github.io/Inteligenta-Artificiala/Curiozitati.html)
+
+
